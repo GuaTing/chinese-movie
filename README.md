@@ -10,7 +10,7 @@ gain movies imformation from json file <br>
 * try.py <br>
 get the picture about the movie in movie.txt
 ## main function
-***cbooo_messge.py***
+***cbooo_messge.py*** 
 * get_name()　　　　　　　　//獲取電影名字     <br>
 * get_film()　　　　　　　　//獲取電影類型     <br>
 * get_length()　　　　　　　//獲取電影片長     <br>
@@ -39,6 +39,10 @@ Based on python3 and selenium, first need to install:
 Take [Once Upon a Time(三生三世十里桃花)](http://www.cbooo.cn/m/629924) as an example <br>
 1.use xpath and selenium to get all message about the film. <br>
 ![sample1](https://github.com/GuaTing/chinese-movie/blob/master/sample1.jpeg) <br>
-2.save the message as json <br>
-
-
+2.save the message as json_file <br>
+![sample2](https://github.com/GuaTing/chinese-movie/blob/master/sample2.png) <br>
+## designation
+|name|id|film|data|country|distributor|company|director|actor|total|length|
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+|film name|film id|film type|film <br> release date|film company|film <br> ｄistribution companies|film <br> ｐroduction company|film director|film <br> main actor|film total <br> box office|film ｌｅｎｇｔｈ| <br>
+３．get detil messge
