@@ -36,6 +36,9 @@ Based on python3 and selenium, first need to install:
 |:---|:---|
 |**first step** <br> used to get <br> all films message <br> from url|**second step** <br> used to get <br> one film <br> more detail message|
 ## Sample
-Take [Once Upon a Time(三生三世十里桃花)](http://www.cbooo.cn/m/629924) as an example
-![picture]()
+Take [Once Upon a Time(三生三世十里桃花)](http://www.cbooo.cn/m/629924) as an example <br>
+1.use xpath and selenium to get all message about the film. <br>
+![sample1](https://github.com/GuaTing/chinese-movie/blob/master/sample1.jpeg) <br>
+2.save the message as json <br>
+
 
