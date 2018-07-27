@@ -45,4 +45,6 @@ Take [Once Upon a Time(三生三世十里桃花)](http://www.cbooo.cn/m/629924) 
 |name|id|film|data|country|distributor|company|director|actor|total|length|
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 |film name|film id|film type|film <br> release date|film company|film <br> ｄistribution companies|film <br> ｐroduction company|film director|film <br> main actor|film total <br> box office|film ｌｅｎｇｔｈ| <br>
+
 ３．get detil messge
+![sample3](https://github.com/GuaTing/chinese-movie/blob/master/sample3.png)
