@@ -27,7 +27,7 @@ get the picture about the movie in movie.txt
     get_name()　　　　　　　　　//獲取電影名字 <br>
     get_cover()　　　　　　　　//獲取電影海報 <br>
 ## Operating environment
-Based on python3 and selenium, first need to install:
+the code is based on python3 and selenium, and firstly we need to install:
 * requests
 * phantomjs
 * re
@@ -36,7 +36,7 @@ Based on python3 and selenium, first need to install:
 ## Operation instructions
 |cbooo_message.py|　　read.py |
 |:---|:---|
-|**first step** <br> used to get <br> all films message <br> from url|**second step** <br> used to get <br> one film <br> more detail message|
+|**first step** <br> used to get <br> all message <br> from url|**second step** <br> used to get <br> the message <br> you need|
 ## Sample
 Take [Once Upon a Time(三生三世十里桃花)](http://www.cbooo.cn/m/629924) as an example <br>
 1.use xpath and selenium to get all message about the film. <br>
