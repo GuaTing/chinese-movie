@@ -64,6 +64,8 @@ def get_film(url):
                 return film.replace('类型：','')
         except:
             return 'NULL'
+        
+        
 def get_length(url):
     """
     获取片長
@@ -89,6 +91,8 @@ def get_length(url):
                 return length.replace('\r\n                    ','').replace('片长：','').strip()
         except:
             return 'NULL'
+        
+        
 def get_data(url):
     """
     获取上映時間
@@ -114,6 +118,8 @@ def get_data(url):
                 return data.replace('\r\n                    ','').replace('上映时间：','').strip()
         except:
             return 'NULL'
+        
+        
 def get_country(url):
     """
     获取國家及地區
@@ -139,6 +145,8 @@ def get_country(url):
                 return country.replace('\r\n                    ','').replace('国家及地区：','').strip()
         except:
             return 'NULL'
+        
+        
 def get_director(url):
     """
     获取導演
@@ -166,6 +174,8 @@ def get_director(url):
                 return 'NULL'
         except:
             return 'NULL'
+        
+        
 def get_actor(url):
     """
     获取演員
@@ -192,6 +202,8 @@ def get_actor(url):
                 return 'NULL'
         except:
             return 'NULL'
+        
+        
 def get_company(url):
     """
     获取制作公司
@@ -218,6 +230,8 @@ def get_company(url):
                 return 'NULL'
         except:
             return 'NULL'
+        
+        
 def get_distributor(url):
     """
     获取發行公司
@@ -245,6 +259,7 @@ def get_distributor(url):
         except:
             return 'NULL'
 
+        
 def get_total(url):
     """
     获取累計票房
@@ -270,9 +285,9 @@ def get_total(url):
         except:
             return 'NULL'
 
+        
 r = open("../Movies")
 line = r.readlines()
-a = 0
 names_list = []
 movie_names = []
 movie_ids = []
